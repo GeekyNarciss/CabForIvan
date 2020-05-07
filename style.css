@@ -297,96 +297,12 @@ footer img:hover{
     color:#f06c64;
 }
 
-
 /*
+
 @media (max-width: 1019px){
     
-    .slider .container{
-        width: calc(100vw);
-        padding: 0;
-    }
-
-    .slider{
+    .galery{
         height: auto;
-    }
-
-    .iphones{
-        width: 600px;
-        max-width: 600px;
-        padding: 30px 0;
-        align-items: center;
-    }
-
-    .iphone{
-        width: 180px;
-        height: 364px;
-    }
-    
-    .iphone-shadow{
-        width: 180px;
-        height: 364px;
-        top: 0;
-        left: 0;
-        background-size: cover;
-    }
-
-    .iphone-case{
-        position: absolute;
-        width: 162px;
-        height: 344px;
-        top: 19px;
-        left: -1px;
-    }
-
-    .chevs:nth-child(1) {
-        left: -10px;
-    }
-
-    .chevs:nth-child(3) {
-        position: relative;
-        left: 10px;
-    }
-    
-    .iphone:nth-child(1) {
-        width: 180px;
-        height: 364px;
-        top: 0;
-        left: 0;
-    }
-
-    .iphone:nth-child(2) {
-        width: 180px;
-        height: 364px;
-        top: 0px;
-        left: 1px;
-    }
-
-    .iphone:nth-child(2) .iphone-case {
-        transform: scale(1, -1);
-        background-position: top;
-        position: relative;
-        top: 18px;
-        left: -1px;
-    }
-
-    .iphone:nth-child(2) .iphone-screen{
-        background-image: url(assets/screen-h.png);
-        transform: scale(1, -1);
-        top: 45px;
-        left: 8px;
-    }
-
-    .iphone-screen{
-        width: 144px;
-        height: 251px;
-        top: 45px;
-        left: 9px;
-        background-repeat: no-repeat;
-        background-size: contain;
-    }
-
-    .container{
-        width: calc(100% - 80px)
     }
 
     .news{
@@ -397,12 +313,7 @@ footer img:hover{
         width: calc(100% - 80px);
     }
 
-    .news .wrapper{
-        grid-template: repeat(3, 104px) / repeat(2, 1fr);
-        grid-gap: 35px;
-        width: 100%;
-    }
-
+    
     .FAQ{
         height: auto;
     }
@@ -412,28 +323,6 @@ footer img:hover{
         padding-bottom: 40px;
     }
 
-    .people{
-        grid-template: 443px / repeat(3, 1fr);
-        grid-gap: 14.6px;
-    }
-
-    .people > div > img{
-        width: 100%;
-    }
-
-    .people > div{
-        display: flex;
-        flex-direction: column;
-    }
-
-    .get-a-quote .wrapper{
-        width: calc(100% - 80px);
-        
-    }
-
-    .get-a-quote .grid-for-form-and-aside{
-        grid-template:  1fr / 2fr 1fr;
-    }
 
     footer .wrapper{
         width: calc(100% - 80px);
@@ -443,10 +332,6 @@ footer img:hover{
 
 @media (max-width: 767px){
 
-    .anchors{
-        scroll-margin-top: 71px;
-    }
-
     .burger-button{
         display: flex;
     }
@@ -454,85 +339,6 @@ footer img:hover{
     header{
         height: 71px;
         border-bottom: none;
-    }
-
-    .iphones{
-        width: 477px;
-        max-width: 280px;
-        height: 178px;
-        align-items: center;
-    }
-
-    .iphone{
-        width: 88px;
-        height: 178px;
-    }
-    
-    .iphone-shadow{
-        width: 88px;
-        height: 178px;
-        top: 0;
-        left: 0;
-        background-size: cover;
-    }
-
-    .iphone-case{
-        position: absolute;
-        width: 79px;
-        height: 168px;
-        top: 19px;
-        left: -1px;
-    }
-
-    .chevs:nth-child(1) {
-        left: -30px;
-    }
-
-    .chevs:nth-child(3) {
-        position: relative;
-        left: 10px;
-    }
-
-    .chev-right {
-        position: relative;
-        top: 84px;
-        left: 0px;
-    }
-    
-    .iphone:nth-child(1) {
-        width: 88px;
-        height: 178px;
-        top: 0;
-        left: 1px;
-    }
-
-    .iphone:nth-child(2) {
-        width: 88px;
-        height: 178px;
-        top: 0px;
-        left: 57px;
-    }
-
-    .iphone:nth-child(2) .iphone-case {
-        transform: scale(1, -1);
-        background-position: top;
-        position: relative;
-        top: 18px;
-        left: -1px;
-    }
-
-    .iphone-screen{
-        width: 69px;
-        height: 122px;
-        top: 22px;
-        left: 5px;
-    }
-
-    .iphone:nth-child(2) .iphone-screen{
-        background-image: url(assets/screen-h.png);
-        transform: scale(1, -1);
-        top: 21px;
-        left: 4px;
     }
 
     .news .block{
@@ -578,19 +384,6 @@ footer img:hover{
         height: auto;
     }
 
-    .images {
-        grid-template: repeat(4, 1fr)/ repeat(2, 1fr);
-        grid-gap: 13px;
-    }
-
-    .FAQ .img-for-FAQ:nth-child(n+9){
-        display: none;
-    }
-
-    .people{
-        grid-template: repeat(3, 1fr) / 1fr;
-    }
-
     .contact{
         height: auto;
     }
@@ -605,26 +398,6 @@ footer img:hover{
         margin: 40px 0;
     }
 
-    .people > div >p{
-        height: 40px;
-    }
-
-    .get-a-quote .wrapper{
-        width: calc(100% - 60px);
-    }
-
-    .get-a-quote{
-        height: auto;
-    }
-
-    .get-a-quote h2 + p{
-        top: 0;
-        margin: 10px 0;
-    }
-
-    .get-a-quote .grid-for-form-and-aside{
-        grid-template: 3fr 2fr / 1fr;
-    }
 
     footer span{
         display: none;
