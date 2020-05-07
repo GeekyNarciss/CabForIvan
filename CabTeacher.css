@@ -98,13 +98,13 @@ nav li>a:hover {
     color: #064a88; 
 }
   
-.galery{
+.profile{
     width: 100%;
     height: 494px;
     background-color: #489CE8; 
 }
 
-.galery .container{
+.profile .container{
     height: 100%;
     width: 940px;
     padding: 0 40px;
@@ -114,23 +114,23 @@ nav li>a:hover {
     justify-content: space-around;
 }
 
-.galery h2{
+.profile h2{
     position: relative;
-    top: -80px;
+    top: 80px;
     font-size: 30px;
     color: #666d89;
     font-weight: 900;
     letter-spacing: -0.2px;
 }
 
-.news{
+.schedule{
     color: #666d89;
     height: 494px;
     width: 100%;
     background-color: #73B1E8;
 }
 
-.news .container{
+.schedule .container{
     height: calc(100% - 80px);
     width: 940px;
     padding: 40px;
@@ -140,7 +140,7 @@ nav li>a:hover {
     justify-content: space-around;
 }
 
-.news h2{
+.schedule h2{
     position: relative;
     top: 10px;
     font-size: 30px;
@@ -149,7 +149,7 @@ nav li>a:hover {
     letter-spacing: -0.2px;
 }
 
-.news h4{
+.schedule h4{
     position: relative;
     top: -10px;
     letter-spacing: 0.36px;
@@ -159,7 +159,7 @@ nav li>a:hover {
     font-weight: 400;
 }
 
-.news h5{
+.schedule h5{
     position: relative;
     top: -10px;
     letter-spacing: 0.36px;
@@ -169,13 +169,13 @@ nav li>a:hover {
     font-weight: 400;
 }
 
-.FAQ{
+.groups{
     width: 100%;
     height: 494px;
     background-color: #fff;
 }
 
-.FAQ .container{
+.groups .container{
     height: calc(100% - 80px);
     width: 940px;
     padding: 40px;
@@ -185,7 +185,7 @@ nav li>a:hover {
     justify-content: space-around;
 }
 
-.FAQ h2{
+.groups h2{
     position: relative;
     top: -80px;
     font-size: 30px;
@@ -194,13 +194,13 @@ nav li>a:hover {
     letter-spacing: -0.2px;
 }
 
-.contact{
+.program{
     background-color: #73B1E8;
     height: 494px;
     color: #666d89;
 }
 
-.contact .container{
+.program .container{
     height: calc(100% - 80px);
     width: 940px;
     padding: 40px;
@@ -210,7 +210,7 @@ nav li>a:hover {
     justify-content: space-around;
 }
 
-.contact h2{
+.program h2{
     position: relative;
     top: 10px;
     font-size: 30px;
@@ -219,7 +219,7 @@ nav li>a:hover {
     letter-spacing: -0.2px;
 }
 
-.contact h4{
+.program h4{
     letter-spacing: 0.36px;
     line-height: 30px;
     font-size: 17px;
@@ -227,7 +227,7 @@ nav li>a:hover {
     font-weight: 400;
 }
 
-.contact h5{
+.program h5{
     letter-spacing: 0.36px;
     line-height: 30px;
     font-size: 17px;
@@ -235,10 +235,10 @@ nav li>a:hover {
     font-weight: 400;
 }
 
-.contact a{
+.program a{
     color: #767e9e;
 }
-.contact h5>a:hover {
+.program h5>a:hover {
     cursor: pointer; 
     color: #064a88; 
 }
